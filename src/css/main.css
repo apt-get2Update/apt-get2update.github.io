@@ -3,46 +3,60 @@
  */
 @import 'imports/reset.css';
 
-.cv-header{
+.cv-header {
   background-color: #F7F8F9;
 }
-.icon{
+
+.icon {
   font-size: 3rem
 }
-.logo{
+
+.logo {
   height: 4.6875em;
 }
 
-h1{
-  &:before{
+h1 {
+  &:before {
     content: "{"
   }
-  &:after{
+
+  &:after {
     content: "}"
   }
 }
 
-h2{
-  &:before{
+h2 {
+  &:before {
     content: "<"
   }
-  &:after{
+
+  &:after {
     content: "/>"
   }
 }
 
-.f-14{
+.f-14 {
   font-size: 0.875rem
 }
-.f-18{
+
+.f-18 {
   font-size: 1.125rem
 }
-.f-24{
+
+.f-24 {
   font-size: 1.5rem
 }
-.f-32{
+
+.f-32 {
   font-size: 2rem
 }
-.f-40{
+
+.f-40 {
   font-size: 2.5rem
+}
+
+.i-text {
+  color: #17a2b8;
+  font-size: .875rem;
+  line-height: 1.5;
 }
